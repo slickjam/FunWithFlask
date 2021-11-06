@@ -1,0 +1,5 @@
+// build the image
+docker build -t flask_runner .
+
+//run the image
+docker run -it --rm flask_runner
